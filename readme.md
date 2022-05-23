@@ -63,11 +63,11 @@ flask run
 
 ### Bed Routes
 ```http
-POST, GET /view-all-beds
+POST GET /view-all-beds
 ```
 
 ```http
-POST, GET /view-bed/<bed_id>
+POST GET /view-bed/<bed_id>
 ```
 Make sure to include the bed id in the url otherwise you will get a 404 error.
 
@@ -105,7 +105,7 @@ POST /clear-bed
 ### Plant Routes
 
 ```http
-POST, GET /view-all-plants
+POST GET /view-all-plants
 ```
 
 ```http
